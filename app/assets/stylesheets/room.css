@@ -77,6 +77,7 @@ li {
 .chat-room-form__field--right {
   float: right;
   width: 70%;
+  position:relative
 }
 
 .chat-room-user {
@@ -125,4 +126,9 @@ select {
 
 .field_with_errors{
   display: contents;
+}
+
+.chatmember {
+  position: absolute;
+  top: 86px;
 }
